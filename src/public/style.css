@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Allerta+Stencil');
+
+body {
+  font-family: 'Allerta Stencil', sans-serif;
+  margin: 4vw 0;
+  padding: 0;
+  background-color: #eabedd;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.6vw;
+  margin: 2vw;
+}
+
+p {
+  text-align: center;
+  font-size: 1.5vw;
+  font-family: sans-serif;
+  opacity: 0.6;
+}
+
+footer {
+  position: absolute;
+  bottom: 2vw;
+  left: 30vw;
+  width: 40vw;
+  text-align: center;
+  font-size: 1vw;
+  opacity: 0.5;
+}
+
+.form {
+  overflow: hidden;
+  display: block;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Allerta Stencil', sans-serif;
+  margin: 0;
+  padding-top: 3vw;
+}
+
+.input {
+  text-align: center;
+  display: block;
+  padding: 1vw;
+  margin: 1vw auto;
+  width: 30vw;
+  font-size: 2vw;
+  border-radius: 5vw;
+  border: none;
+  outline: none;
+}
+
+.input:focus {
+  outline: none;
+  box-shadow: 0 0 2vw rgba(0,0,0,0.4);
+}
+
+.convertedNumber {
+  font-family: 'Allerta Stencil', sans-serif;
+  font-size: 4vw;
+  opacity: 1;
+  padding: 2vw;
+}
